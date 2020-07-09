@@ -2,10 +2,12 @@ def reverse_list(input_list):
     """
     Reverses order of elements in list input_list.
     """
-    return None
+         new_list = input_list[::-1] 
+    return new_list
 
 def count_digits(number):
     """
     Return count of digits
     """
-    return None
+     count = list1.count(number)
+    return count
